@@ -34,5 +34,5 @@ figure
 pcolor(bathy), colorbar
 
 % Save figure for CEOF 1
-disp(['Saving figure for HEOF 1, upper'])
+disp(['Saving figure'])
 print('-djpeg100','-r300',[File_1,'.jpg']);
