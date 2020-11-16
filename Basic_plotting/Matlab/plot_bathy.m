@@ -15,7 +15,8 @@ region = 'GOMl0.04/';
 user = 'erick';
 hdir = '/LUSTRE/CIGOM/HYCOM/EXPS_CURSO/';
 idir = [hdir,user,'/tutorial/topo/'];
-psdir = [hdir,user,'/figures/Horz_maps/'];
+psdir = [hdir,user,'/figures/'];
+File_1 = [psdir,'batimetria_gom'];
 
 % size of the domain
 idm = 541 ;  % size of the domain 1/25°
